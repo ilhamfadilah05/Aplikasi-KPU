@@ -34,6 +34,7 @@ public class home_page extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setText("INPUT DATA PESERTA");
@@ -59,7 +60,7 @@ public class home_page extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 260, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Yayan Sopyan ST\\Documents\\NetBeansProjects\\Aplikasi-KPU\\src\\pages\\Ddesain.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pages/Ddesain.png"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
