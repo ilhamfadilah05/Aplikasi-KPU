@@ -309,8 +309,9 @@ public class input_peserta extends javax.swing.JFrame {
 
     private void provinsiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_provinsiActionPerformed
         JComboBox test = new JComboBox();
-        if(provinsi.getSelectedItem().toString() == "DKI JAKARTA") {
+        if("DKI JAKARTA".equals(provinsi.getSelectedItem().toString())) {
             //ADD
+            
             kota.addItem("KOTA JAKARTA PUSAT");
             kota.addItem("KOTA JAKARTA BARAT");
             kota.addItem("KOTA JAKARTA UTARA");
@@ -327,7 +328,7 @@ public class input_peserta extends javax.swing.JFrame {
             kota.removeItem("KOTA SERANG");
             kota.removeItem("KABUPATEN PANDEGLANG");
             
-        } else if(provinsi.getSelectedItem().toString() == "BANTEN") {
+        } else if("BANTEN".equals(provinsi.getSelectedItem().toString())) {
             //add
             kota.addItem("KOTA TANGERANG");
             kota.addItem("KOTA CILEGON");
@@ -346,7 +347,8 @@ public class input_peserta extends javax.swing.JFrame {
             kota.removeItem("KOTA DEPOK");
             
             
-        } else if(provinsi.getSelectedItem().toString() == "JAWA BARAT") {
+        } else if("JAWA BARAT".equals(
+                provinsi.getSelectedItem().toString())) {
             //add
             kota.addItem("KOTA BANDUNG");
             kota.addItem("KOTA BEKASI");
